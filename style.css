@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF9F2;
+    margin: 0;
+}
+
+/* Header */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #FFFFFF, #FFE0BD);
+    color: #713F12;
+}
+
+/* Logo */
+.brand img {
+    border-radius: 50%;
+}
+
+/* Brand name */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #713F12;
+}
+
+/* Navigation */
+#main-nav {
+    display: flex;
+    gap: 25px;
+}
+
+#main-nav a {
+    color: #713F12;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#main-nav a:hover {
+    color: #F28C28;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #FFFFFF, #FFF0DE);
+}
+
+/* Hero heading */
+.hero h1 {
+    font-size: 36px;
+    color: #713F12;
+    margin-bottom: 15px;
+}
+
+/* Hero paragraph */
+.hero p {
+    font-size: 18px;
+    max-width: 1500px;
+    margin: 0 auto 25px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #654321;
+}
+
+/* View My Project button */
+#btn {
+    display: inline-block;
+    border: 2px solid #F28C28;
+    padding: 15px 25px;
+    background-color: #F28C28;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #D96B16;
+}
