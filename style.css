@@ -257,3 +257,84 @@ img{
 .project-btn:hover {
     background-color: brown;
 }
+.welcome {
+  padding: 20px;
+  background-color: #fab026;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  width: 400px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  border: 5px solid rgb(245, 4, 4);
+}
+.welcome input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid orangered;
+}
+.welcome button{
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid antiquewhite;
+}
+.welcome button:hover{
+    background-color: antiquewhite;
+    border:  2px solid aliceblue;
+}
+
+body.dark {
+    background-color: #222;
+    color: white;
+}
+
+body.dark .head {
+    background: linear-gradient(to right, #333, #555);
+}
+
+
+body.dark .subscribe,
+body.dark .about,
+body.dark .card,
+body.dark .ContactForm,
+body.dark .projects-table,
+body.dark .project-card {
+    background-color: #333;
+    color: white;
+}
+
+body.dark .card p,
+body.dark .about p,
+body.dark .project-card p {
+    color: #eee;
+}
+
+body.dark .projects-table a {
+    color: #ffcc70;
+}
+
+body.dark .welcome {
+    background-color: #444;
+    color: white;
+    border-color: #ffcc70;
+}
+
+body.dark .subscribe input,
+body.dark .ContactForm input,
+body.dark .welcome input {
+    background-color: #333;
+    color: white;
+    border-color: #ffcc70;
+}
+nav button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+}
